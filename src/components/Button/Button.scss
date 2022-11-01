@@ -1,0 +1,11 @@
+$component-prefix: 'button';
+
+.#{$component-prefix} {
+    width: 15%;
+    height: 15%;
+    font-size: larger;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
