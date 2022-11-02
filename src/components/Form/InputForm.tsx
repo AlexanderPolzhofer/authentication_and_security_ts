@@ -15,7 +15,7 @@ export const InputForm: React.FC<InputFormProps> = ({ buttonLabel }) => {
                 <input type='email' id='email-input' className='input-form__input'></input>
                 <label htmlFor='password-input' className='input-form__label'>Password:</label>
                 <input type='password' id='password-input' className='input-form__input'></input>
-                <Button label={buttonLabel ? buttonLabel : 'Test'} color='lightgrey'/>
+                <Button label={buttonLabel} color='lightgrey'/>
             </form>
         </div>
     )

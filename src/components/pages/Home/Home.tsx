@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../Button/Button';
+import { Button } from '../../Button/Button';
 import './Home.scss';
 
 export const Home: React.FC = () => {
@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
                 <h1>Secrets</h1>
                 <p>Don't keep your secrets, share them anonymously!</p>
             </div>
-            <hr />
+            <hr className='home__hr-line' />
             <div className='home__button-container'>
                 <Button label='Register' color='lightgrey' />
                 <Button label='Login' />

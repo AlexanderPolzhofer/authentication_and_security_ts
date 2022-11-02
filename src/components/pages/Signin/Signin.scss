@@ -1,0 +1,20 @@
+$component-prefix: 'signin';
+
+.#{$component-prefix}{
+    padding: 5vh;
+  
+    &__text {
+        padding: 1rem;
+    }
+
+    &__input-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    &__hr-line {
+        background-color: grey;
+    }
+}
