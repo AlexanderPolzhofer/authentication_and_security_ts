@@ -9,6 +9,17 @@ function App() {
 
   return (
     <BrowserRouter>
+      <nav>
+        <Link to={'/'}>
+          Home
+        </Link>
+        <Link to={'/signin'}>
+          SignIn
+        </Link>
+        <Link to={'/signup'}>
+          SignUp
+        </Link>
+      </nav>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/signin' element={<Signin />} />
