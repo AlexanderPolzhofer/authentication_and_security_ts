@@ -1,0 +1,25 @@
+$component-prefix: 'navbar';
+
+.#{$component-prefix} {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 255, 255);
+
+    &__links-container {
+        display: flex;
+        gap: 2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: gray;
+        font-weight: 400;
+        font-size: 21px;
+    }
+
+    i:hover {
+        cursor: pointer;
+    }
+
+}

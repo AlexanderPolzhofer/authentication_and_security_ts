@@ -6,9 +6,9 @@ export const Signin: React.FC = () => {
     return (
         <div className='signin'>
             <h1 className='signin__text'>Signin</h1>
-            <hr />
+            <hr className='signin__hr-line' />
             <div className='signin__input-form'>
-                 <InputForm buttonLabel='Login' />
+                <InputForm buttonLabel='Login' />
             </div>
         </div>
     )
